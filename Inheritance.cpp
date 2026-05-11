@@ -2,9 +2,9 @@
 #include <string>
 using namespace std;
 
-public
-orang
+class orang
 {
+public:
     string nama;
     orang(string pNama) : nama(pNama)
     {
@@ -19,4 +19,4 @@ orang
     {
         return a + b;
     }
-}
+};
