@@ -66,3 +66,9 @@ void dokter::cetakPasien()
     }
     cout << endl;
 }
+
+int main()
+{
+
+    return 0;
+}
