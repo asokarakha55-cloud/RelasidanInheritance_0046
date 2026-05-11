@@ -3,6 +3,7 @@
 
 class anak
 {
+public:
 };
 
 #endif
