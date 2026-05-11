@@ -1,3 +1,17 @@
 #include <iostream>
 #include <string>
 using namespace std;
+
+public
+orang
+{
+    string nama;
+    orang(string pNama) : nama(pNama)
+    {
+        cout << "orang \"" << nama << "\"ada\n";
+    }
+    ~orang()
+    {
+        cout << "orang \"" << nama << "\"tidak ada\n";
+    }
+}
