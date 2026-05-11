@@ -26,4 +26,9 @@ class dokter
 public:
     string nama;
     vector<pasien *> daftar_pasien;
+
+    dokter(string pNama) : nama(pNama)
+    {
+        cout << "dokter \"" << nama << "\"ada\n";
+    }
 };
