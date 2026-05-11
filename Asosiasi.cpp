@@ -25,4 +25,7 @@ int main()
     delete varAnak1;
     delete varAnak2;
     delete varAnak3;
+
+    system("pause");
+    return 0;
 }
