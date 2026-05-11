@@ -14,4 +14,9 @@ orang
     {
         cout << "orang \"" << nama << "\"tidak ada\n";
     }
+
+    int jumlah(int a, int b)
+    {
+        return a + b;
+    }
 }
